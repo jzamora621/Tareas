@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml">
+    <head th:replace="~{layout/plantilla :: head}">
+        <title>Arbol</title>        
+    </head>
+    <body>
+        <header th:replace="~{layout/plantilla :: header}"/>
+        <br>
+        <p>
+
+            En esta tarea, los estudiantes deben realizar una práctica que implica la creación y gestión de una base de datos en MySQL, junto con el desarrollo de un proyecto basado en Spring Boot.
+            La tarea se divide en varias partes: en la primera parte, se debe crear una base de datos llamada "práctica" con una tabla llamada "arbol" que contenga al menos cinco columnas,
+            incluyendo una clave primaria autoincrementada y un campo para almacenar la ruta de la imagen del árbol.
+            Además, se debe crear un usuario con acceso a la base de datos. En la segunda parte, se debe desarrollar un proyecto Spring Boot llamado "práctica01" utilizando Bootstrap para la interfaz. 
+            La tercera parte implica configurar la conexión a la base de datos,
+            ajustar el puerto del servidor web y configurar los mensajes de la consola. En la cuarta parte, se deben implementar las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar los registros de árboles, 
+            siguiendo la arquitectura MVC. Finalmente, en la quinta parte, se debe utilizar plantillas para los encabezados y pies de página. 
+            La entrega consiste en un archivo ZIP con el proyecto completo, excluyendo la carpeta "target", que debe ser subido al campus virtual.
+
+        </p>
+        <br>
+        <footer th:replace="~{layout/plantilla :: footer}"/>          
+    </body>
+</html>
